@@ -34,6 +34,7 @@ export class PlaywrightDocsPage {
   }
 
   async expectConfigPage() {
-    await expect(this.page).toHaveURL(/playwright\.config/);
+    await expect(this.page).toHaveURL(
+  "https://playwright.dev/docs/test-configuration");
   }
 }
