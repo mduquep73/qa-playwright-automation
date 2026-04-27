@@ -5,11 +5,12 @@
     "types": ["node", "@playwright/test"],
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "module": "commonjs",
-    "moduleResolution": "node",
+    "module": "node16",
+    "moduleResolution": "node16",
     "allowJs": true,
     "noEmit": true,
-    "strict": true
+    "strict": true,
+    "ignoreDeprecations": "6.0"
   },
   "include": [
     "**/*.ts",

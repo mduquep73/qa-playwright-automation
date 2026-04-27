@@ -24,7 +24,6 @@ export default defineConfig({
     video: 'retain-on-failure',      // 🎥 guarda video si falla
     trace: 'retain-on-failure',      // 🔍 guarda trace completo
   },
-
   // Navegadores donde correrán los tests
   projects: [
     {
